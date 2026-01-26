@@ -1,4 +1,6 @@
-/*console.log("hello world")
+
+//Variables and how console.log works
+console.log("hello world")
 let age = "30"
 console.log(age);
 let firstName = "Comfort"
@@ -13,7 +15,7 @@ age = 120;
 console.log(age);
 console.log(firstName + lastName);
 console.log(firstName + " " + lastName);
-*/
+
 
 const massMark = 95;
 const heightMark = 1.88;
@@ -26,7 +28,7 @@ const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIJohn, BMIJohn)
 console.log(markHigherBMI);
 
-
+// If /else statesments
 if (BMIJohn > BMIMark) {
   console.log("John's BMI is higher than Mark's BMI")
 } else {
@@ -38,20 +40,21 @@ if (BMIMark > BMIJohn) {
   console.log(`John's ${BMIJohn} is heiger than Mark's ${BMIJohn}`)
 }
 
-
-/*const firstName= "Daniel Effiong"
-const age= 39;
-const job= "Developer"
+// Template literals and knowing how to use Backtics ``
+const firstName = "Daniel Effiong"
+const age = 39;
+const job = "Developer"
 console.log(`I'm ${firstName}, i'm ${age} years old, and i work with meta as a ${job}.`);
-*/
 
-/*console.log(`Open to me the gate of holiness, and i will enter and give thanks.
+
+console.log(`Open to me the gate of holiness, and i will enter and give thanks.
 This is the Lord's own gate, where the just may enetr, we bless you.
 we bless from the house of the Lord, the Loed God is our light`)
-*/
 
 
-/*let score = 65;
+// taking decision(if / else statements) How to use Double if/else
+
+let score = 65;
 
 if (score >= 70) {
   console.log("Grade A");
@@ -60,9 +63,9 @@ if (score >= 70) {
 } else {
   console.log("Fail");
 }
-  */
 
-/*const age = 50;
+
+const age = 50;
 
 if (age >= 70) {
   console.log(`Retairment and Home rest`);
@@ -72,6 +75,7 @@ if (age >= 70) {
   console.log(`no employment`)
 }
 
+// If/else statements 
 const averageScore = 55.5;
 
 if (averageScore < 55.5) {
@@ -89,6 +93,8 @@ if (isPrice >= 20) {
   console.log('payment denied');
 }
 
+
+// Using upto 3 if/else
 let isNumberOfStudent = 45
 
 if (isNumberOfStudent <= 40) {
@@ -101,6 +107,8 @@ if (isNumberOfStudent <= 40) {
   console.log('send everyone home');
 }
 
+
+// if/ else statements with strict equality opereators(===)
 const loginId = "2233";
 
 if (loginId === "2233") {
@@ -118,12 +126,13 @@ if (isNumber >= 10 && isValid) {
   console.log('do not allow')
 }*/
 
+// Type conversion and Coercion
 //Here there's no type convertion because "30" is  a string
-/*const letPrice = "30";
+const letPrice = "30";
 const letBalance = 15;
 console.log("30" + letBalance);
 console.log(Number("30"))
-*/
+
 
 const letPrice = "30";
 const letBalance = 15;
