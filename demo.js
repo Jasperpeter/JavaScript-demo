@@ -1,6 +1,6 @@
 
 //Variables and how console.log works
-console.log("hello world")
+/*console.log("hello world")
 let age = "30"
 console.log(age);
 let firstName = "Comfort"
@@ -124,7 +124,7 @@ if (isNumber >= 10 && isValid) {
   console.log("You can enetr")
 } else {
   console.log('do not allow')
-}*/
+}
 
 // Type conversion and Coercion
 //Here there's no type convertion because "30" is  a string
@@ -166,4 +166,28 @@ if ((isWeekend || isHoliday) && hasPermission) {
 } else {
   console.log("Stay at home");
 }
+*/
 
+const hasDriverLicense = true;
+const hasGoodVision = true;
+const isTired = !true;
+
+if (hasDriverLicense || hasGoodVision || isTired) {
+  console.log('let comfort drive')
+} else {
+  console.log('comfort should go to a driving school')
+}
+
+const scoreDolphins = (98 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
+console.log(scoreDolphins)
+console.log(scoreKoalas)
+
+if (scoreDolphins > scoreKoalas) {
+  console.log('Dolphins win the trophy')
+} else if (scoreKoalas > scoreDolphins) {
+  console.log('Koalas win the trophy')
+} else {
+  console.log("Both win the trophy")
+}
