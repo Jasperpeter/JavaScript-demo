@@ -191,3 +191,42 @@ if (scoreDolphins > scoreKoalas) {
 } else {
   console.log("Both win the trophy")
 }
+
+//statement switch: This is another way of writing the if/else statements, though, it allows more conditions or statements to be added to the code
+
+const day = "Tuesday"
+
+switch (day) {
+  case 'monday':
+    console.log('plan a course structure');
+    break
+  case 'Tuesday':
+    console.log('prepare therory videos');
+    break
+  case 'wednesday':
+  case 'thursday':
+    console.log('play football');
+    break
+  case 'friday':
+    console.log('Record Videos');
+    break
+  case 'Saturday':
+  case 'sunday':
+    console.log('reset and visit family');
+    break
+  default:
+    console.log('Not a good week');
+}
+
+//The conditonal(Ternary) Operator
+//this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
+// we have long statements, big logic or many conditions
+
+const age = 23
+
+const drink = age >= 23 ? ' wine' : ' water';
+console.log(drink);
+
+const time = 40;
+const year = time < 40 ? 'grow' : ' growth';
+console.log(year);
