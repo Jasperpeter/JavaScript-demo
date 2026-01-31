@@ -1,6 +1,5 @@
-
 //Variables and how console.log works
-/*console.log("hello world")
+console.log("hello world")
 let age = "30"
 console.log(age);
 let firstName = "Comfort"
@@ -165,68 +164,67 @@ if ((isWeekend || isHoliday) && hasPermission) {
   console.log("You can go out");
 } else {
   console.log("Stay at home");
-}
-*/
 
-const hasDriverLicense = true;
-const hasGoodVision = true;
-const isTired = !true;
 
-if (hasDriverLicense || hasGoodVision || isTired) {
-  console.log('let comfort drive')
-} else {
-  console.log('comfort should go to a driving school')
-}
+  const hasDriverLicense = true;
+  const hasGoodVision = true;
+  const isTired = !true;
 
-const scoreDolphins = (98 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
+  if (hasDriverLicense || hasGoodVision || isTired) {
+    console.log('let comfort drive')
+  } else {
+    console.log('comfort should go to a driving school')
+  }
 
-console.log(scoreDolphins)
-console.log(scoreKoalas)
+  const scoreDolphins = (98 + 108 + 89) / 3;
+  const scoreKoalas = (88 + 91 + 110) / 3;
 
-if (scoreDolphins > scoreKoalas) {
-  console.log('Dolphins win the trophy')
-} else if (scoreKoalas > scoreDolphins) {
-  console.log('Koalas win the trophy')
-} else {
-  console.log("Both win the trophy")
-}
+  console.log(scoreDolphins)
+  console.log(scoreKoalas)
 
-//statement switch: This is another way of writing the if/else statements, though, it allows more conditions or statements to be added to the code
+  if (scoreDolphins > scoreKoalas) {
+    console.log('Dolphins win the trophy')
+  } else if (scoreKoalas > scoreDolphins) {
+    console.log('Koalas win the trophy')
+  } else {
+    console.log("Both win the trophy")
+  }
 
-const day = "Tuesday"
+  //statement switch: This is another way of writing the if/else statements, though, it allows more conditions or statements to be added to the code
 
-switch (day) {
-  case 'monday':
-    console.log('plan a course structure');
-    break
-  case 'Tuesday':
-    console.log('prepare therory videos');
-    break
-  case 'wednesday':
-  case 'thursday':
-    console.log('play football');
-    break
-  case 'friday':
-    console.log('Record Videos');
-    break
-  case 'Saturday':
-  case 'sunday':
-    console.log('reset and visit family');
-    break
-  default:
-    console.log('Not a good week');
-}
+  const day = "Tuesday"
 
-//The conditonal(Ternary) Operator
-//this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
-// we have long statements, big logic or many conditions
+  switch (day) {
+    case 'monday':
+      console.log('plan a course structure');
+      break
+    case 'Tuesday':
+      console.log('prepare therory videos');
+      break
+    case 'wednesday':
+    case 'thursday':
+      console.log('play football');
+      break
+    case 'friday':
+      console.log('Record Videos');
+      break
+    case 'Saturday':
+    case 'sunday':
+      console.log('reset and visit family');
+      break
+    default:
+      console.log('Not a good week');
+  }
 
-const age = 23
+  //The conditonal(Ternary) Operator
+  //this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
+  // we have long statements, big logic or many conditions
 
-const drink = age >= 23 ? ' wine' : ' water';
-console.log(drink);
+  const age = 23
 
-const time = 40;
-const year = time < 40 ? 'grow' : ' growth';
-console.log(year);
+  const drink = age >= 23 ? ' wine' : ' water';
+  console.log(drink);
+
+  const time = 40;
+  const year = time < 40 ? 'grow' : ' growth';
+  console.log(year);
