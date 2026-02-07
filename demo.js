@@ -1,5 +1,5 @@
 //Variables and how console.log works
-console.log("hello world")
+/*console.log("hello world")
 let age = "30"
 console.log(age);
 let firstName = "Comfort"
@@ -166,7 +166,7 @@ if ((isWeekend || isHoliday) && hasPermission) {
   console.log("Stay at home");
 
 
-  const hasDriverLicense = true;
+  */const hasDriverLicense = true;
   const hasGoodVision = true;
   const isTired = !true;
 
@@ -182,7 +182,7 @@ if ((isWeekend || isHoliday) && hasPermission) {
   console.log(scoreDolphins)
   console.log(scoreKoalas)
 
-  if (scoreDolphins > scoreKoalas) {
+  if (scoreDolphins > scoreKo+alas) {
     console.log('Dolphins win the trophy')
   } else if (scoreKoalas > scoreDolphins) {
     console.log('Koalas win the trophy')
@@ -215,16 +215,37 @@ if ((isWeekend || isHoliday) && hasPermission) {
     default:
       console.log('Not a good week');
   }
+  */
 
-  //The conditonal(Ternary) Operator
-  //this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
-  // we have long statements, big logic or many conditions
+//The conditonal(Ternary) Operator
+//this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
+// we have long statements, big logic or many conditions
 
-  const age = 23
+const age = 23
 
-  const drink = age >= 23 ? ' wine' : ' water';
-  console.log(drink);
+const drink = age >= 23 ? ' wine' : ' water';
+console.log(drink);
 
-  const time = 40;
-  const year = time < 40 ? 'grow' : ' growth';
-  console.log(year);
+const time = 40;
+const year = time < 40 ? 'grow' : ' growth';
+console.log(year);
+
+
+const isPrice = 20;
+const successful = 'Payment was successful'
+const denied = "payment was denied"
+if (isPrice >= 20) {
+  console.log(successful);
+} else {
+  console.log(denied);
+}
+
+function logger() {
+    console.log('my name is peter');
+}
+function logger() {
+  console.log('my name is peter');
+}
+
+// Call the function
+logger();
