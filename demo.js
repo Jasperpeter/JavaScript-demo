@@ -166,7 +166,7 @@ if ((isWeekend || isHoliday) && hasPermission) {
   console.log("Stay at home");
 
 
-  */const hasDriverLicense = true;
+  const hasDriverLicense = true;
   const hasGoodVision = true;
   const isTired = !true;
 
@@ -221,7 +221,7 @@ if ((isWeekend || isHoliday) && hasPermission) {
 //this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
 // we have long statements, big logic or many conditions
 
-const age = 23
+/*const age = 23
 
 const drink = age >= 23 ? ' wine' : ' water';
 console.log(drink);
@@ -240,12 +240,8 @@ if (isPrice >= 20) {
   console.log(denied);
 }
 
-function logger() {
+*/function logger() {
     console.log('my name is peter');
 }
-function logger() {
-  console.log('my name is peter');
-}
-
 // Call the function
 logger();
