@@ -245,3 +245,28 @@ if (isPrice >= 20) {
 }
 // Call the function
 logger();
+
+function greet(name) {
+  console.log("Hello " + name );
+}
+greet("Peter")
+
+function sayHi(name) {
+  console.log("Hi there!" + name);
+}
+
+sayHi("Comfort");
+
+function addNumbers(a, b) {
+  return a + b;
+}
+
+let total = addNumbers(5, 3);
+console.log(total); 
+
+function double(num) {
+  return num * 2;
+}
+
+let result = double(5);
+console.log(result);
