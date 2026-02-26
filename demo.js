@@ -1,9 +1,11 @@
 //Variables and how console.log works
-/*console.log("hello world")
+console.log("hello world")
 let age = "30"
 console.log(age);
+
 let firstName = "Comfort"
 console.log(firstName);
+
 let lastName = "Ekanem"
 console.log(lastName);
 
@@ -74,7 +76,7 @@ if (age >= 70) {
   console.log(`no employment`)
 }
 
-// If/else statements 
+// If/else statements
 const averageScore = 55.5;
 
 if (averageScore < 55.5) {
@@ -215,58 +217,28 @@ if ((isWeekend || isHoliday) && hasPermission) {
     default:
       console.log('Not a good week');
   }
-  */
 
-//The conditonal(Ternary) Operator
-//this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
-// we have long statements, big logic or many conditions
+  //The conditonal(Ternary) Operator
+  //this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
+  // we have long statements, big logic or many conditions
 
-/*const age = 23
+  const age = 23
 
-const drink = age >= 23 ? ' wine' : ' water';
-console.log(drink);
+ const drink = age >= 23 ? ' wine' : ' water';
+ console.log(drink);
 
-const time = 40;
-const year = time < 40 ? 'grow' : ' growth';
-console.log(year);
+ const time = 40;
+ const year = time < 40 ? 'grow' : ' growth';
+ console.log(year);
 
 
-const isPrice = 20;
-const successful = 'Payment was successful'
-const denied = "payment was denied"
-if (isPrice >= 20) {
+ const isPrice = 20;
+ const successful = 'Payment was successful'
+ const denied = "payment was denied"
+ if (isPrice >= 20) {
   console.log(successful);
-} else {
+ } else {
   console.log(denied);
-}
+ }
 
-*/function logger() {
-    console.log('my name is peter');
-}
-// Call the function
-logger();
 
-function greet(name) {
-  console.log("Hello " + name );
-}
-greet("Peter")
-
-function sayHi(name) {
-  console.log("Hi there!" + name);
-}
-
-sayHi("Comfort");
-
-function addNumbers(a, b) {
-  return a + b;
-}
-
-let total = addNumbers(5, 3);
-console.log(total); 
-
-function double(num) {
-  return num * 2;
-}
-
-let result = double(5);
-console.log(result);
