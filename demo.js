@@ -241,4 +241,3 @@ if ((isWeekend || isHoliday) && hasPermission) {
   console.log(denied);
  }
 
-
