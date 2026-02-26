@@ -26,8 +26,8 @@ function double(num) {
   return num * 2;
 }
 
-let result = double(5);
-console.log(result);
+let result1 = double(5);
+console.log(result1);
 
 // Function declaration and Expresssion
 
@@ -145,3 +145,33 @@ function checkAge(age){
 }
 
 console.log(checkAge(22));
+
+//Assignment 
+// Practice 1
+function subtractNumber( num1, num2){
+  return num1 - num2
+}
+ console.log (subtractNumber (30, 9)) ;
+
+// practice 2
+ 
+function isEven (num){
+  if (num % 2 === 0 ){
+    return "Even"
+  }
+   return "Odd" 
+}
+ console.log(isEven(6));
+ 
+ // Arrow function examples
+ // Practice 1
+ const divide = (number1, number2) =>{
+    return number1 / number2;
+ }
+  console.log (divide (20,5));
+
+  // Practice 2
+  let greetUser1 = (name) =>{
+    return "Hello " + name; 
+  };
+  console.log(greetUser1("Andre"));
