@@ -1,10 +1,10 @@
 //Variables and how console.log works
 console.log("hello world")
-let age = "30"
-console.log(age);
+let newAge = "30"
+console.log(newAge);
 
-let firstName = "Comfort"
-console.log(firstName);
+let surname = "Comfort"
+console.log(surname);
 
 let lastName = "Ekanem"
 console.log(lastName);
@@ -17,7 +17,7 @@ console.log(age);
 console.log(firstName + lastName);
 console.log(firstName + " " + lastName);
 
-
+ 
 const massMark = 95;
 const heightMark = 1.88;
 const massJohn = 85;
@@ -43,9 +43,9 @@ if (BMIMark > BMIJohn) {
 
 // Template literals and knowing how to use Backtics ``
 const firstName = "Daniel Effiong"
-const age = 39;
+const age1 = 39;
 const job = "Developer"
-console.log(`I'm ${firstName}, i'm ${age} years old, and i work with meta as a ${job}.`);
+console.log(`I'm ${firstName}, i'm ${age1} years old, and i work with meta as a ${job}.`);
 
 
 console.log(`Open to me the gate of holiness, and i will enter and give thanks.
@@ -86,9 +86,9 @@ if (averageScore < 55.5) {
 
 }
 
-const isPrice = 20;
+const isPrice1 = 20;
 
-if (isPrice >= 20) {
+if (isPrice1 >= 20) {
   console.log("payment successful");
 } else {
   console.log('payment denied');
@@ -135,10 +135,6 @@ console.log("30" + letBalance);
 console.log(Number("30"))
 
 
-const letPrice = "30";
-const letBalance = 15;
-console.log("30" - letBalance) // the operators -,* and / wiill convert a string to number
-
 // Example with (||) Or
 const bg = "black";
 if (bg === 'blue' || bg === 'white') {
@@ -166,7 +162,7 @@ if ((isWeekend || isHoliday) && hasPermission) {
   console.log("You can go out");
 } else {
   console.log("Stay at home");
-
+}
 
   const hasDriverLicense = true;
   const hasGoodVision = true;
@@ -222,9 +218,8 @@ if ((isWeekend || isHoliday) && hasPermission) {
   //this is use to write the if/else statement in a very short way, just a one line of code. it can not be used when
   // we have long statements, big logic or many conditions
 
-  const age = 23
-
- const drink = age >= 23 ? ' wine' : ' water';
+  const age2 = 23
+ const drink = age2 >= 23 ? ' wine' : ' water';
  console.log(drink);
 
  const time = 40;
