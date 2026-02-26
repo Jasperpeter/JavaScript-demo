@@ -19,8 +19,8 @@ function addNumbers(a, b) {
   return a + b;
 }
 
-let total = addNumbers(5, 3);
-console.log(total); 
+let sum = addNumbers(5, 3);
+console.log(sum); 
 
 function double(num) {
   return num * 2;
