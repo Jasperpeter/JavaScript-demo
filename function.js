@@ -152,7 +152,6 @@ function subtractNumber( num1, num2){
   return num1 - num2
 }
  console.log (subtractNumber (30, 9)) ;
-
 // practice 2
  
 function isEven (num){
