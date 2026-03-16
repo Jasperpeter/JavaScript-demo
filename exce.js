@@ -35,7 +35,7 @@ let greetUser = (name) => {
  console.log(greetUser("Ferdrick"));
 
  // Functions calling functions
-
+ // e.g 1
  function add(a, b){
     return a + b;
  }
@@ -55,4 +55,4 @@ let greetUser = (name) => {
     let greeting = greet(name);
     return greeting + "  Goodbye"
    }
-    console.log(sayGoodbye(' Able'));
+    console.log(sayGoodbye(' Able')); 
