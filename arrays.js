@@ -51,3 +51,4 @@ console.log(fruits.indexOf("Banana"));
 let juice = ["Apple", "Banana", "Orange"];
 
 console.log(juice.includes("mango"));
+
