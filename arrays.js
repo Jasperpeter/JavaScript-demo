@@ -52,3 +52,12 @@ let juice = ["Apple", "Banana", "Orange"];
 
 console.log(juice.includes("mango"));
 
+
+
+const person = {
+  name: "Peter",
+  age: 25,
+  greet: function () {
+    console.log("Hello, my name is " + this.name);
+  }
+};
