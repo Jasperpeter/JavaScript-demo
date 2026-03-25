@@ -36,3 +36,46 @@ const man ={
     }
 }
 man.greet();
+
+ const car ={
+    brand: "Toyota",
+    model: 2014,
+    describe() {
+        console.log(`This car is a ${this.brand} made in ${this.model}`)
+    }
+ }
+  car.describe();
+// example 1
+  const user ={
+    name: "John",
+    age: 25,
+    intro() {
+        console.log(`My name is ${this.name} and i am ${this.age} years old`);
+    }
+  }
+  user.intro();
+// Example 2
+  const product = {
+    title: "iphone",
+    price: 1200,
+    show() {
+        console.log(`The product is ${this.title} and it cost $${ this.price}`)
+    }
+  }
+  product.show();
+
+  // Example 3
+
+  const stud ={
+    name:" Peter",
+    course: "Computer Science",
+    school() {
+        console.log(`${this.name} is studying ${this.course}`);
+    }
+  }
+  stud.school();
+
+
+  //Exaple 4
+
+  
